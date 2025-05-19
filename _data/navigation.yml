@@ -12,11 +12,11 @@ main:
     url: /files/Michael_Hellstern_CV.pdf
 
   - title: "Publications"
-    url: /publications/
+    url: /publications
 
   - title: "Talks"
-    url: /talks/    
+    url: /talks
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching
     
