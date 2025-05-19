@@ -18,7 +18,7 @@ redirect_from:
 
 ## Journals
 
-**Fast Computation and Interactive Visualization for Topology-Based Pathway Enrichment Analysis.**  
+**Fast Computation and Interactive Visualization for Topology-Based Pathway Enrichment Analysis**  
 **Michael Hellstern**, Jing Ma, Kun Yue, Ali Shojaie  
 *PLOS Computational Biology, 2021*.  
 [PDF](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008979) &nbsp; [Code](https://github.com/mikehellstern/netgsa) &nbsp;  
