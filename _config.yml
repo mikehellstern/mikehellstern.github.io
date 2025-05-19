@@ -22,10 +22,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "mikehellstern.png"
-  name             : "Mike Hellstern"
+  avatar           : "mikehellstern.jpg"
+  name             : "Michael Hellstern"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate in Biostatistics\nUniversity of Washington"
+  bio              : "PhD Candidate in Biostatistics, University of Washington"
   location         :
   employer         : 
   uri              :
