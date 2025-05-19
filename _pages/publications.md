@@ -16,6 +16,13 @@ redirect_from:
 *AISTATS, 2025* ([SLDS 2024 Student Poster Award Honorable Mention](https://sites.google.com/view/slds2024/menu/contributed-posters-and-student-paper-competition?authuser=0)).  
 [PDF](https://raw.githubusercontent.com/mlresearch/v258/main/assets/hellstern25a/hellstern25a.pdf) &nbsp; [Code](https://github.com/mikehellstern/spectral-differential-networks) &nbsp;  
 
+## Journals
+
+**Fast Computation and Interactive Visualization for Topology-Based Pathway Enrichment Analysis.**
+**Michael Hellstern**, Jing Ma, Kun Yue, Ali Shojaie  
+*PLOS Computational Biology, 2021*.  
+[PDF](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008979) &nbsp; [Code](https://github.com/mikehellstern/netgsa) &nbsp;  
+
 ## In-progress
 
 **Assumption-Lean Inference for Spectral Differential Network Analysis of High-Dimensional Time Series**  
