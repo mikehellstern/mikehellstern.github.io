@@ -1,0 +1,1 @@
+This is a repo for my personal website. It is based heavily off of [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv) with some modifications.

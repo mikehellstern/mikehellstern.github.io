@@ -1,0 +1,60 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="talk-list-item view-talk box-border w-full" style="margin-bottom: 2rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  <!-- <span class="talk-title">
+    $item.Params.title
+  </span> -->
+  <!-- <a href="{{ $item.RelPermalink }}" class="underline-animate"><span class = "talk-title">{{ $item.Params.Title }}</span></a> -->
+<!-- <div class="flex items-center space-x-5">
+    <a href="{{ $item.RelPermalink }}" class="underline-animate"><span class = "talk-title">{{ $item.Params.Title }}</span>
+  {{ with $item.Resources.GetMatch "slides" }}
+  <a href="{{ .RelPermalink }}" class="linkbutton" target="_blank" rel="noopener">
+    {{ .Title }}
+  </a>
+  {{ end }}
+</div>-->
+
+
+<!-- This is clickable talk title. Don't have any additional info so don't make clickable (which would bring you to a separate talk page) -->
+<!-- <a href="{{ $item.RelPermalink }}" class="underline-animate"><span class="talk-title">{{ $item.Params.Title }}</span>
+</a> -->
+
+<span class="talk-title">{{ $item.Params.Title }}</span>
+
+<div class="talk-details pl-[1rem] mb-8 border-b pb-6"> <!-- pl-[4rem]adds indentation, Tailwind example -->
+
+  {{ with $item.Params.summary }}
+    <p class="talk-summary mt-1 mb-3">{{ . | markdownify }}</p>
+  {{ end }}
+<!-- list-['-'] ml-4 -->
+    {{ with $item.Params.locations }}
+    Presented at:
+    <ul class="talk-locations-list list-disc list-inside mb-3 ">
+        {{ range . }}
+        <li class="talk-locations-list-item">
+            {{ if .url }}
+                <a class="talk-venue" href="{{ .url }}">{{ .name }}</a> 
+                , {{ .date }}
+            {{ else }}
+                {{ .name }} , {{ .date }}
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+
+  {{ with $item.Params.url_slides }}
+  <span class="talk-button">
+    <a href="{{ . | relURL }}" class="linkbutton" target="_blank" rel="noopener">
+      Slides
+    </a>
+  </span>
+  {{ end }}
+
+</div>
+
+</div>
