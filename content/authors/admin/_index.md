@@ -157,6 +157,6 @@ education:
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.-->
 ---
 
-I received my Ph.D. in Biostatistics at the University of Washington in August 2025, where I was lucky to be advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). 
+I received my Ph.D. in Biostatistics at the University of Washington in August 2025, where I was advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). 
 My research focuses on developing statistical machine learning tools for estimation and uncertainty quantification of differential graphical models from (potentially high-dimensional) time series data. 
 I am also working on developing machine learning methods for time series data more generally. I am broadly interested in many applications and challenging problems in AI, Health, and Finance.
