@@ -16,29 +16,22 @@
   line-height: 1.25;
 }
 
-/* .news-award {
-  font-weight: 500;
-  color: #b8860b;
-}
-
-.news-conference {
-  font-weight: 500;
-  color: #004080;
-}
-
-.news-journal {
-  font-weight: 500;
-  font-style: italic;
-} */
-
 .link {
   color: #007bff;
+  text-decoration: none;
+}
+.link:hover {
+  color: #004780;
   text-decoration: underline;
 }
 
 .news-venue {
   font-weight: 500;
   color: #004C99;
+  text-decoration: none;
+}
+.news-venue:hover {
+  color: #003366;
   text-decoration: underline;
 }
 
