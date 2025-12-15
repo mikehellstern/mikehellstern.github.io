@@ -28,8 +28,7 @@ summary: "Insert description"
 
 featured: true
 
-url_pdf: ''
-url_slides: ''
+url_pdf: "https://arxiv.org/pdf/2511.19761"
 ---
 
 **Summary:** Vector autoregressive (VAR) models are widely used, but selecting the correct model order is challenging. Existing methods like AIC often overestimate order, while BIC and HQ require large samples for accuracy. We introduce the mean square information criterion (MIC), which leverages the flatness of expected error once the true order is reached. MIC provides consistent order estimation under mild conditions and outperforms AIC, BIC, and HQ in simulations and in forecasting COVID-19 outcomes in New York City.
