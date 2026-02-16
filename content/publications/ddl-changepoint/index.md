@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Deep Learning for Change-point Detection"
+title: "Dynamic Deep Learning for Detecting Changes in Biomedical Processes"
 authors:
 - admin
 - Ali Shojaie

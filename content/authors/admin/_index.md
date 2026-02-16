@@ -41,10 +41,10 @@ profiles:
     url: https://scholar.google.com/citations?user=xE_eY7YAAAAJ&hl=en&oi=ao
 
 interests:
-  - High-dimensional Statistics
+  - AI/ML in Healthcare
   - Machine Learning
   - Time Series
-  - Graphical Models
+  - High-dimensional statistics
 
 education:
   - area: PhD in Biostatistics
@@ -156,7 +156,4 @@ education:
 #     summary: |
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.-->
 ---
-
-I received my Ph.D. in Biostatistics at the University of Washington in August 2025, where I was advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). 
-My research focuses on developing statistical machine learning tools for estimation and uncertainty quantification of differential graphical models from (potentially high-dimensional) time series data. 
-I am also working on developing machine learning methods for time series data more generally. I am broadly interested in many applications and challenging problems in AI, Health, and Finance.
+I earned my Ph.D. in Biostatistics from the University of Washington in August 2025, advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). My postdoctoral research tackles complex challenges at the intersection of AI and the Health Sciences. Currently, my work focuses on two key areas: leveraging LLMs for causal inference and precision medicine via electronic health records, and developing dynamic deep learning methods to jointly learn change-points and weights in foundation models.
