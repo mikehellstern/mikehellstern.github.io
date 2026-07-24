@@ -1,66 +1,68 @@
 /* Import both font families from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;500;600;700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Source+Sans+Pro:wght@200;300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Roboto+Mono:wght@300;400;500&family=Source+Sans+Pro:wght@200;300;400;500;600;700&display=swap');
 :root {
-  --my-custom-blue: #007bff; /* A custom blue color */
+  --my-custom-blue: #2A7B82; /* A custom blue color */
+  --my-custom-blue-hover: #1F5C61;
   --sticky-top-offset: calc(var(--navbar-height) + 2rem);
+  --text-charcoal: #333333;
+}
+
+/* LINK STYLES */
+.link {
+  color: var(--my-custom-blue);;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--my-custom-blue-hover);
+  text-decoration: underline;
+}
+
+/* NEWS STYLES */
+.news-venue {
+  font-weight: 500;
+  color: var(--my-custom-blue); /*#004C99;*/
+  text-decoration: none;
+}
+.news-venue:hover {
+  color: var(--my-custom-blue-hover); /*#003366;*/
+  text-decoration: underline;
+}
+.news-award {
+  font-weight: 500;
+}
+
+/* TALK STYLES */
+.talk-venue {
+  font-weight: 500;
+  color: var(--my-custom-blue); /*#004C99;*/
+  text-decoration: none;
+}
+.talk-venue:hover {
+  color: var(--my-custom-blue-hover); /*#003366;*/
+  text-decoration: underline;
+}
+.talk-title{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* CITATION STYLES */
+.citation-title{
+  font-weight: 500;
 }
 
 .text-5xl {
   font-size: 3rem; /* This is equivalent to 60px */
   line-height: 1.25;
+  color: var(--text-charcoal);
 }
-
-.text-6xl {
-  font-size: 3.75rem; /* This is equivalent to 60px */
-  line-height: 1.25;
-}
-
-.link {
-  color: #007bff;
-  text-decoration: none;
-}
-.link:hover {
-  color: #004780;
-  text-decoration: underline;
-}
-
-.news-venue {
-  font-weight: 500;
-  color: #004C99;
-  text-decoration: none;
-}
-.news-venue:hover {
-  color: #003366;
-  text-decoration: underline;
-}
-
-.talk-venue {
-  font-weight: 500;
-  color: #004C99;
-  text-decoration: underline;
-}
-
-/* AWARD STYLES */
-.news-award {
-  font-weight: 500;
-}
-
-
-/*--------------*/
-/* CSS for text */
-/*--------------*/
 
 /* Apply Source Sans Pro to the main text and headings */
 body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
+  color: var(--text-charcoal);
   font-weight: 300; /* A lighter font weight */
-}
-
-
-.talk-title{
-  font-size: 1.25rem;
-  font-weight: 400;
 }
 
 body {
@@ -76,8 +78,8 @@ code, pre {
   font-weight: 300; /* A lighter font weight */
 }
 
-/* Change font weight and color for author name/role/org */
-.author-name {
+/* /* Change font weight and color for author name/role/org */
+/*.author-name {
   font-weight: 300;
 }
 .author-role {
@@ -85,7 +87,7 @@ code, pre {
 }
 .author-org {
   color: #777;
-}
+} */
 
 .section-subheading {
   font-weight: 400;
@@ -108,7 +110,7 @@ code, pre {
 /* CSS for buttons */
 /*-----------------*/
 /* nicebutton CSS */
-.nicebutton {
+/* .nicebutton {
   align-items: center;
   appearance: none;
   background-color: #fff;
@@ -175,12 +177,13 @@ code, pre {
 
 .nicebutton:disabled {
   box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
-}
+} */
 
 /* linkbutton CSS */
 .hb-attachment-link,
 .linkbutton,
-.see-all-button {
+.see-all-button,
+.nicebutton {
   align-items: center;
   appearance: none;
   background-color: transparent;
@@ -207,24 +210,31 @@ code, pre {
     color 0.3s ease, 
     box-shadow 0.3s ease, 
     transform 0.3s ease;
+  border: 1px solid #4A3C31;       /* Walnut brown border */
+  color: #4A3C31;                  /* Walnut brown text */
+  font-family: 'Roboto Mono', monospace; /* Enforce the technical font */
 }
 
 .hb-attachment-link:hover,
 .linkbutton:hover,
-.see-all-button:hover {
-  background-color: #293E51;  /* fill with blue-gray */
-  color: #fff;                /* white text */
+.see-all-button:hover,
+.nicebutton:hover {
+  background-color: #4A3C31;  /* Fill with walnut brown */
+  border-color: #4A3C31;
+  color: #F9F6F0;             /* Warm cream text */
 }
 
 .hb-attachment-link:active,
 .linkbutton:active,
-.see-all-button:active {
+.see-all-button:active,
+.nicebutton:active {
   box-shadow: 0 2px 2px 0 rgb(60 64 67 / 30%), 0 4px 6px 3px rgb(60 64 67 / 15%);
 }
 
 .hb-attachment-link:focus,
 .linkbutton:focus,
-.see-all-button:focus {
+.see-all-button:focus,
+.nicebutton:focus {
   border: 2px solid #293E51;  /* focus outline */
   outline: none;
 }
@@ -233,3 +243,53 @@ code, pre {
   display: none;
 }
 
+
+/* section.bg-white, 
+section.dark\:bg-slate-900 {
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+} */
+section {
+  border-bottom: 1px solid #f1f5f9 !important; /* Very light solid line */
+  padding-bottom: 5rem !important; 
+  margin-bottom: 0 !important;
+  /* Adds a soft, shaded blur pointing downward */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03); 
+}
+
+/* Optional: Prevent a double-line if your footer already has a border */
+section:last-of-type {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+
+/* The Glassmorphism Container */
+.year-group-header {
+   position: sticky;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  /* un-comment if you want sticky headers */
+  /* position: sticky;
+  top: 4rem;
+  z-index: 20; */
+}
+
+/* The Left and Right Horizontal Lines */
+.year-group-divider {
+  flex: 1;                    /* Fills the remaining empty space */
+  border-bottom: 2px solid #dcdfe3;
+}
+
+/* The Faint Watermark Typography */
+.year-group-title {
+  font-size: 2rem;         
+  font-weight: 300;           /* Hairline thin */
+  color: #dcdfe3;             /* Soft gray */
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  user-select: none;          /* Prevents accidental highlighting */
+  margin: 0;
+  line-height: 1;
+}

@@ -7,12 +7,15 @@
     <time
       class="news-date md:hidden news-date relative z-10 order-first mb-3 flex items-center pl-1"
       datetime="{{ time.Format "2006-01-02" $item.Date }}">
-      {{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }}
+      <!-- {{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }} -->
+      {{ time.Format "2006-01-02" $item.Date }}
     </time>
     <p class="news-description relative z-10 mt-2">{{$description}}</p>
   </div>
   <time
     class="news-date mt-1 hidden md:block relative z-10 order-first mb-3 flex items-center"
-    datetime="{{ time.Format "2006-01-02" $item.Date }}">{{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }}
+    datetime="{{ time.Format "2006-01-02" $item.Date }}">
+    <!-- {{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }} -->
+    {{ time.Format "2006-01-02" $item.Date }}
   </time>
 </article>

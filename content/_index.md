@@ -16,15 +16,15 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: DOWNLOAD CV
-        url: uploads/Hellstern_Michael_CV.pdf
+      # button:
+      #   text: CV
+      #   url: uploads/Hellstern_Michael_CV.pdf
     design:
       css_class: light
       background:
-        color: white
+        color: "rgb(253, 253, 253)"
 
-  - block: sidetitle
+  - block: sidetitle-grouped-year
     id: news
     content:
       title: News
@@ -45,9 +45,9 @@ sections:
       # Choose a layout view
       view: news
       background:
-        color: "rgb(247, 247, 247)"
+        color: "rgb(248, 248, 246)"
 
-  - block: sidetitle
+  - block: sidetitle-grouped-year
     id: pubs
     content:
       count: 5
@@ -64,6 +64,8 @@ sections:
       titlewidth: 1/4
       contentwidth: 3/4
       css_class: light
+      background:
+        color: "rgb(253, 253, 253)"
 
   - block: sidetitle
     id: talks
@@ -81,5 +83,5 @@ sections:
       contentwidth: 3/4
       css_class: light
       background:
-        color: "rgb(247, 247, 247)"
+        color: "rgb(248, 248, 246)"
 ---

@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD in Biostatistics
+role: Research Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Washington
+  - name: Google
     url:
 
 # Social network links
@@ -156,4 +156,4 @@ education:
 #     summary: |
 #       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.-->
 ---
-I earned my Ph.D. in Biostatistics from the University of Washington in August 2025, advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). My postdoctoral research tackles complex challenges at the intersection of AI and the Health Sciences. Currently, my work focuses on two key areas: leveraging LLMs for causal inference and precision medicine via electronic health records, and developing dynamic deep learning methods to jointly learn change-points and weights in foundation models.
+I am a Research Data Scientist at Google working on GenAI personalization in Chrome. I earned my Ph.D. in Biostatistics from the University of Washington in August 2025, advised by [Ali Shojaie](https://faculty.washington.edu/ashojaie/). In my postdoctoral research, I tackled complex challenges at the intersection of AI and the Health Sciences. My work focused on two key areas: leveraging LLMs for causal inference and precision medicine via electronic health records, and developing a dynamic deep learning architecture.

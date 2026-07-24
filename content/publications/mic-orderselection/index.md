@@ -1,13 +1,13 @@
 ---
-title: "Order Selection in Vector Autoregression by Mean Square Information Criteria”"
+title: "Order Selection in Vector Autoregression by Mean Square Information Criteria"
 authors:
 - admin
 - Ali Shojaie
-date: ""
+date: "2025-11-24"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-27"
+publishDate: "2026-07-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -16,7 +16,7 @@ publication_types: [""]
 publication_type_show: false
 
 # Publication name and optional abbreviated publication name.
-publication: "*In preparation*"
+publication: "arXiv:2511.19761"
 publication_short: ""
 
 abstract: "Vector autoregressive (VAR) processes are ubiquitously used in economics, finance, and biology. Order selection is an essential step in fitting VAR models. While many order selection methods exist, all come with weaknesses. Order selection by minimizing AIC is a popular approach but is known to consistently overestimate the true order for processes of small dimension. On the other hand, methods based on BIC or the Hannan-Quinn (HQ) criteria are shown to require large sample sizes in order to accurately estimate the order for larger-dimensional processes. We propose the mean square information criterion (MIC) based on the observation that the expected squared error loss is flat once the fitted order reaches or exceeds the true order. MIC is shown to consistently estimate the order of the process under relatively mild conditions. Our simulation results show that MIC offers better performance relative to AIC, BIC, and HQ under misspecification. Furthermore, MIC offers better performance when forecasting COVID-19 outcomes in New York City."

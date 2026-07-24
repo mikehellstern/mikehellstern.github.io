@@ -16,3 +16,6 @@ main:
   - name: Talks
     url: /#talks
     weight: 13
+  - name: CV
+    url: /uploads/Hellstern_Michael_CV.pdf
+    weight: 100 

@@ -7,10 +7,12 @@
   {{/* APA Style */}}
   {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
+  <a href="{{ $item.RelPermalink }}" class="link citation-title">{{ $item.Title }}</a>
+  <br>
   <span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item }}.
   </span>
-  <a href="{{ $item.RelPermalink }}" class="link">{{ $item.Title }}</a>.
+  <br>
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}} 
   {{ else if $item.Params.publication }}
